@@ -1,0 +1,389 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/*copyright lynda.com 2011
+feel free to use these styles as you wish
+attribution would be nice, but not required
+*/
+
+
+/*Global styles -----------------------------------------------------------------------------------------------------------*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, footer, nav, h1, h2, h3, h4, h5, h6, p, em, strong, img, ol, ul, li, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align:baseline;
+	font: inherit;
+}
+
+/*html5 display rule*/
+address, article, aside, footer, header, nav, menu, nav, section{
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(219,126,64);
+	
+}
+
+a:hover {
+	color: #7B798F;
+	
+}
+
+html {
+	
+	background-image: url(../wp_images/twinkle-lights_verbenasimpleliving.wordpress.com-2011-06-15-for-love-of-twinkle-lights.jpg);
+	background-attachment: fixed;
+}
+
+body {
+	font: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	position: relative;
+	background: #ffffff;
+	color: rgb(76, 67, 65);
+	font-weight:normal;
+	font-style:normal;
+}
+
+#mainNav h2 {
+	display: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+/*Basic layout styles -----------------------------------------------------------------------------------------------------------*/
+
+body {
+	width: 1180px;
+	margin: 0 auto;
+	height: 1000px;
+}
+
+header {
+	height: 165px;
+}
+
+article {
+	float: left;
+	width: 800px;
+	padding-left: 50px;
+}
+
+aside {
+	float: right;
+	width: 230px;
+	padding-right: 50px;
+}
+
+#pageFooter {
+	clear:both;
+	overflow:hidden;
+	height: 150px;
+}
+
+/* Content region styles -----------------------------------------------------------------------------------------------------------*/
+
+/*header styles*/
+header {
+	background: #D9EFF2;
+	padding-top: 1px;
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 50px;
+}
+
+header h1 {
+	font-size: 3.2em;
+	font-weight: bold;
+	text-transform: capitalize;
+	line-height: 100px;
+	line-height: 165px;
+	margin-right: .5em;
+	float: left;
+	padding-left: 110px;
+	text-shadow : 2px 2px 4px #348F9D
+}
+
+header h2 {
+	font-style: italic;
+	font-weight:normal;
+	font-size: 1.4em;
+	color: #fff;
+	float: left;
+	text-transform: lowercase;
+	letter-spacing:.1em;
+	line-height: 165px;
+}
+header a, header a:hover {
+	color: #fff;
+	border: none;
+}
+
+/*nav styles*/
+#mainNav {
+	overflow: hidden;
+	margin-bottom: 1.5em;
+	padding-left: 50px;
+}
+
+#mainNav li {
+	float: left;
+	margin-right: 9.8em;
+}
+
+#mainNav a {
+	text-transform: uppercase;
+	display: block;
+	color: rgb(76, 67, 65);
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#mainNav a:hover {
+	color: rgb(30,153,113);
+}
+
+#mainNav a.current {
+	color: rgb(123, 121, 143);
+	cursor: default;
+}
+
+#mainNav a em {
+	font-size: .8em;
+	display: block;
+	text-transform: lowercase;
+	color: rgb(76, 67, 65);
+}
+
+/*main banner styles*/
+.main_banner {
+	height: 350px;
+	padding-left: 50px;
+	overflow: hidden;
+	background: url(../wp_images/be-the-change-you-wish-to-see-in-the-world_eatingrules.com_how-to-change-the-world.jpg) no-repeat;
+	margin-bottom: 4em;
+	position: relative;
+}
+
+.main_banner p {
+	padding: 15px 15px 0;
+	font-size: 1em;
+	line-height: 1.9;
+	color: #fff;
+	background: rgba(123, 121, 143, .8);
+	width: 250px;
+	height: 335px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.main_banner h1 {
+	font-size: 2.2em;
+	color: #fff;
+	padding-top: 290px;
+	letter-spacing:.1em;
+	text-transform: uppercase;
+}
+.girls_banner {
+	height: 350px;
+	padding-left: 50px;
+	overflow: hidden;
+	background: url(../wp_images/beautiful-flowers-friends-friendship-girl-Favim.com-261816_RESIZED.jpg) no-repeat;
+	margin-bottom: 4em;
+	position: relative;
+}
+
+.girls_banner p {
+	padding: 15px 15px 0;
+	font-size: 1em;
+	line-height: 1.9;
+	color: #fff;
+	background: rgba(79, 202, 222, .8);
+	width: 250px;
+	height: 335px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.girls_banner h1 {
+	font-size: 2.2em;
+	color: #fff;
+	padding-top: 290px;
+	letter-spacing:.1em;
+	text-transform: uppercase;
+}
+.lady_banner {
+	height: 350px;
+	padding-left: 50px;
+	overflow: hidden;
+	background: url(../wp_images/eniacwomen_500.jpg) no-repeat;
+	margin-bottom: 4em;
+	position: relative;
+}
+
+.lady_banner p {
+	padding: 15px 15px 0;
+	font-size: 1em;
+	line-height: 1.9;
+	color: #fff;
+	background: rgba(79, 202, 222, .8);
+	width: 250px;
+	height: 335px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+
+.lady_banner h1 {
+	font-size: 2.2em;
+	color: #fff;
+	padding-top: 290px;
+	letter-spacing:.1em;
+	text-transform: uppercase;
+}
+.contact {
+	height: 370px;
+	padding-left: 50px;
+	overflow: hidden;
+	background: url(../wp_images/wisdomchasersdotnet-2014-11-18-hello-world-3_.jpg) no-repeat;
+	margin-bottom: 4em;
+	position: relative;
+}
+
+.contact p {
+	padding: 20px 20px 0;
+	font-size: 1em;
+	line-height: 1.9;
+	color: #fff;
+	background: rgba(79, 202, 222, .8);
+	width: 250px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+}
+
+.contact h1 {
+	font-size: 2.2em;
+	color: #fff;
+	padding-top: 290px;
+	letter-spacing:.1em;
+	text-transform: uppercase;
+}
+
+/*article styles*/
+
+.home {
+	font-family: Georgia, Times, serif;
+	width: 1050px;
+	height: 335px;
+	position: static;
+	float: none;
+}
+article section {
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-bottom: 2em;
+}
+
+article h1, article h2, article h3 {
+	font-family: Georgia, Times, serif;
+}
+
+article > h1 {
+	font-size: 1.8em;
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-bottom: 1.5em;
+	
+}
+
+article h2 {
+	font-size: 1.4em;
+	border-bottom: 2px solid rgb(76, 67, 65);
+	margin-top: 1.5em;
+}
+
+article h2 a {
+	color: rgb(76, 67, 65);
+	border: none;
+}
+
+article p {
+	font-size:1em;
+	margin: 1.2em 0;
+}
+article ul {
+	margin:0 0 1em 50px;
+}
+
+/*aside styles*/
+aside h2 {
+	font-family: Georgia, Times, serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-bottom: 1em;
+	clear: both;
+}
+
+aside nav {
+	margin-bottom: 2em;
+}
+
+aside nav a {
+	display:block;
+	padding-left: 16px;
+	border: none;
+	color: rgb(76, 67, 65);
+	line-height: 2em;
+	margin-bottom: 1px;
+}
+
+aside nav li {
+	background: rgb(79, 202, 222);
+}
+
+aside nav a:hover {
+	color: #fff;
+	border:none;
+	background: rgb(100, 98, 102);
+}
+
+
+/*footer styles*/
+#pageFooter {
+	background: #D9EFF2;
+	padding-top: 1.5em;
+}
+
+
+#pageFooter label {
+	display: block;
+	font-size: 1.2em;
+	text-transform:uppercase;
+}
+
+#pageFooter p {
+	float: right;
+	clear: right;
+	margin-right: 3.9%;
+	text-align: right;
+}
